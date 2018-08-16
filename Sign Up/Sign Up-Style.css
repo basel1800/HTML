@@ -1,0 +1,124 @@
+:focus {
+    outline: none;
+}
+body{
+    background: #c1bdba;
+}
+h1{
+    color: #ffffff;
+    font-weight: 300;
+}
+#su{
+    color: #1ab188;
+    text-decoration: none;
+    display: inline-block;
+    width: 555px;
+    padding: 10px;
+    color: #fff;
+    background-color: #1ab188;
+    text-align: center;
+    position: relative;
+    font-family: tahoma;
+    font-size: 25px;
+}
+#su:before, #su:after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: inherit;
+    transition: .5s;
+}
+#su:before{
+    left: 0px;
+    top: -5px;
+}
+#su:after{
+    right: 0px;
+    bottom: -5px;
+}
+#su:hover:before, #su:hover:after{
+    width: 100%;
+}
+.div1{
+    background-color: #13232f;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    position: relative;
+    
+}
+.divs{
+    position: relative;
+}
+.divs label{
+    position: absolute;
+    left: 26px;
+    top: 10px;
+    font-family: tahoma, arial;
+    color: #999;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+    -webkit-backface-visibility: hidden;
+}
+.divs .req{
+    margin:2px;
+  	color:#1ab188;
+}
+divs .active .req{
+    opacity: 0;
+}
+.divs input[type="text"]{
+    width: 560px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+}
+.divs input[type="email"]{
+    width: 560px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+}
+.divs input[type="password"]{
+    width: 560px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+}
+.divs input[type="text"]:focus + label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.divs input[type="email"]:focus + label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.divs input[type="password"]:focus + label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.has-data label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Calculato</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="My%20Calculator-Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table align="center" >
+            <tr>
+                <td colspan="2" align="center">
+                    <div class="lblh" >Calculator</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="lbln" >Number 1:</label>
+                </td>
+                <td>
+                    <input id="txtNum1" class="txtn" type="number" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="lbln" >Number 2:</label>
+                </td>
+                <td>
+                    <input id="txtNum2" class="txtn" type="number" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" >
+                    <table>
+                        <tr>
+                            <td>
+                                <input class="btn" type="button" value="+" onclick="calc('a');" />
+                            </td>
+                            <td>
+                                <input class="btn" type="button" value="-" onclick="calc('s');" />
+                            </td>
+                            <td>
+                                <input class="btn" type="button" value="×" onclick="calc('m');" />
+                            </td>
+                            <td>
+                                <input class="btn" type="button" value="/" onclick="calc('d');" />
+                            </td>
+                            <td>
+                                <input class="btn" type="button" value="MOD" onclick="calc('mod');" >
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" >
+                    <label id="lblR" style="font-size: 30pt; font-weight: bold;" >0</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="left" >
+                    <input class="btn" type="button" value="Exit" onclick="window.close();" style="background: #d82e2e; height: 33px; width: 80px;" />
+                </td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="My%20Calculator-JavaScript.js"></script>
+    </body>
+</html>

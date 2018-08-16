@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(230,230,230);
+}
+a{
+    text-decoration: none;
+}
+.div1{
+    width: 160;
+}
+.div2{
+    width: 350;
+}
+.tr1{
+    font-size: 15pt;
+    font-family: tahoma;
+}

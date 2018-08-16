@@ -1,0 +1,122 @@
+:focus {
+    outline: none;
+}
+body{
+    background: #c1bdba;
+}
+h1{
+    color: #ffffff;
+    font-weight: 300;
+}
+p{
+    text-align: right;
+    padding-right: 15px;
+}
+a{
+    color: #1ab188;
+    text-decoration: none;
+}
+.a2{
+    font-family: tahoma, arial;
+}
+.a{
+    display: inline-block;
+    width: 555px;
+    padding: 10px;
+    color: #fff;
+    background-color: #1ab188;
+    text-align: center;
+    position: relative;
+    font-family: tahoma;
+    font-size: 25px;
+}
+.a:before, .a:after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: inherit;
+    transition: .5s;
+}
+.a:before{
+    left: 0px;
+    top: -5px;
+}
+.a:after{
+    right: 0px;
+    bottom: -5px;
+}
+.a:hover:before, .a:hover:after{
+    width: 100%;
+}
+.div1{
+    background-color: #13232f;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    position: relative;
+    
+}
+.divs{
+    position: relative;
+}
+.divs label{
+    position: absolute;
+    left: 26px;
+    top: 10px;
+    font-family: tahoma, arial;
+    color: #999;
+    z-index: 0;
+    transition: .3s ease-in-out;
+}
+.divs input[type="email"]{
+    width: 560px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+}
+.divs input[type="password"]{
+    width: 560px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+}
+.divs input[type="email"]:focus + label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.divs input[type="password"]:focus + label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.req{
+    margin:2px;
+    clear: #1ab188;
+}
+.has-data label{
+    left: 17px;
+    top: -24px;
+    font-size: 15px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+/*.input{
+    width: 560px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+}*/

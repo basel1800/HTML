@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(230,230,230);
+}
+.Hello{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: black blue green yellow;
+    width: 105;
+}

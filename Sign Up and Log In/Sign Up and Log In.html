@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign Up and Log In</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="Sign%20Up%20and%20Log%20In-Style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="form">
+
+            <ul class="tab-group">
+                <li class="tab"><a href="#signup">Sign Up</a></li>
+                <li class="tab active"><a href="#login">Log In</a></li>
+            </ul>
+
+            <div class="tab-content">
+                
+                <div id="login">   
+                    <h1>Welcome Back!</h1>
+
+                    <form action="https://basel" method="post">
+
+                        <div class="field-wrap">
+                            <input type="email" required autocomplete="off"/>
+                            <label>Email Address<span class="req">*</span></label>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="password" required autocomplete="off"/>
+                            <label>Password<span class="req">*</span></label>
+                        </div>
+
+                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+                        <button class="button button-block">Log In</button>
+
+                    </form>
+
+                </div>
+                
+                <div id="signup">   
+                    <h1>Sign Up for Free</h1>
+
+                    <form action="https://basel" method="post">
+
+                        <div class="top-row">
+                            <div class="field-wrap">
+                                <input type="text" required autocomplete="off" />
+                                <label>First Name<span class="req">*</span></label>
+                            </div>
+
+                            <div class="field-wrap">
+                                <input type="text" required autocomplete="off"/>
+                                <label>Last Name<span class="req">*</span></label>
+                            </div>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="email" required autocomplete="off"/>
+                            <label>Email Address<span class="req">*</span></label>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="password" required autocomplete="off"/>
+                            <label>Set A Password<span class="req">*</span></label>
+                        </div>
+
+                        <button type="submit" class="button button-block">Get Started</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="Sign%20Up%20and%20Log%20In-JavaScript.js"></script>
+    </body>
+</html>

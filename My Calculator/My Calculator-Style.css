@@ -1,0 +1,39 @@
+input{
+    border-radius: 5px;
+}
+td{
+    padding: 5px;
+}
+.lblh{
+    font-size: 25pt;
+    font-family: impact;
+    text-align: center;
+    width: 200px;
+}
+.lbln{
+    font-size: 14pt;
+    font-family: tahoma;
+    font-weight: bold;
+}
+.txtn{
+    font-size: 14pt;
+    font-family: tahoma;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    border: 1px solid black;
+}
+.btn{
+    font-size: 14pt;
+    font-family: tahoma;
+    font-weight: bold;
+    background: steelblue;
+    color: white;
+    width: 56px;
+    height: 46px;
+    cursor: hand;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: #1c5d95
+}
